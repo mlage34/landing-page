@@ -1,0 +1,142 @@
+/* Front-end Style Guide
+
+## Layout
+
+The designs were created to the following widths:
+
+- Mobile: 375px
+- Desktop: 1440px
+
+## Colors
+
+### Primary
+
+- Violet: hsl(257, 40%, 49%)
+
+## Typography
+
+### Headings
+
+- Family: [Poppins](https://fonts.google.com/specimen/Poppins)
+- Weights: 400, 700
+
+### Body
+
+- Family: [Open Sans](https://fonts.google.com/specimen/Open+Sans)
+- Weights: 400
+
+## Icons
+
+For the social icons, you can use a font icon library. Some suggestions can be found below:
+
+- [Font Awesome](https://fontawesome.com/)
+- [IcoMoon](https://icomoon.io/)
+- [Ionicons](https://ionicons.com/)
+  */
+body {
+  background-color: violet;
+  background-color: hsl(257, 40%, 49%);
+  background-image:
+    url('bg-desktop.svg');
+  font-family: open-sans, sans-serif;
+  font-weight: 400;
+  position: absolute;
+  text-align: left;
+  width: 1440px;
+  color: white;
+  line-height: 1.5;
+}
+
+h1 {
+  font-size: 2.65rem;
+  font-family: Poppins, sans-serif;
+  font-weight: 700;
+}
+
+footer {
+  position: absolute;
+  top: 900px;
+  left: 500px;
+}
+
+
+.container {
+  position: relative;
+  top: 200px;
+  left: 100px;
+}
+
+.text {
+  width: 40%;
+  float: left;
+  font-size: 20px;
+  font-weight: 400;
+}
+
+.logo {
+  position: absolute;
+  top: 50px;
+  left: 60px;
+}
+
+.mockup {
+  float: left;
+  padding-right: 30px;
+  position: relative;
+  top: 180px;
+  left: 60px;
+}
+
+.attribution {
+  font-size: 11px;
+  text-align: center;
+}
+
+.attribution a {
+  color: violet;
+  color: hsl(228, 45%, 44%);
+}
+
+.social-media-images {
+  display: inline-block;
+  float: left;
+}
+
+
+.row {
+  display: flex;
+  position: relative;
+  width: 300px;
+  height: 40px;
+  top: 450px;
+  left: 500px;
+}
+
+.column {
+  flex: 33.33%;
+}
+
+.image {
+  height: 40px;
+}
+
+
+.button {
+	box-shadow: 5px 5px 3px -5px #000000;
+	background-color:#ffffff;
+	border-radius:28px;
+	display:inline-block;
+	cursor:pointer;
+	color:#663399;
+	font-family: open-sans, sans-serif;
+	font-size:17px;
+	padding:20px 55px;
+	text-decoration:none;
+}
+.button:hover {
+	background-color:#a652b3;
+}
+.button:active {
+	position:relative;
+	top:1px;
+}
